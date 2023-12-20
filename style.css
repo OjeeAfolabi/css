@@ -1,0 +1,29 @@
+#heading{
+padding: 10px;
+
+}
+.box{
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin: 2rem;
+    border: 10px solid pink;
+}
+#square1, #square2, #square3{
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.container{
+    background-color:rgb(189, 221, 141);
+
+}
+#square1, #square2, #square3, .container{
+    border-radius: 20px;
+}
+#square2:hover{
+background-color: brown;
+cursor: pointer;
+}
